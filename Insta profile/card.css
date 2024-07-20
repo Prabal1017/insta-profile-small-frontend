@@ -1,0 +1,138 @@
+body{
+  background-color: rgb(237, 237, 237);
+  margin: 0;
+  margin-top: 50px;
+}
+
+p{
+  margin: 0;
+
+}
+
+
+.card{
+  height: 360px;
+  width: 400px;
+  border: solid 1px rgb(218, 218, 218);
+  border-radius: 8px;
+  margin: auto;
+  box-shadow: 20px 20px 20px rgba(0,0,0,0.09);
+
+}
+
+.profile-info{
+  display: flex;
+  height: 100px;
+  /* background-color: lightblue; */
+  align-items: center;
+  
+}
+
+.profile-picture{
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.username{
+  display: inline-block;
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.blue-tick{
+  height: 14px;
+  width: 14px;
+}
+
+.name{
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 2px;
+  color: rgb(99, 99, 99);
+}
+
+.threads{
+  font-family: Roboto;
+  height: 30px;
+  width: 76px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 4px;
+  background-color: gray;
+  color: white;
+}
+
+.threads-icon{
+  width: 14px;
+}
+
+.stats{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  /* background-color: lightpink; */
+  margin-top: 0px;
+  text-indent: 5px;
+}
+
+.numbers{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto;
+}
+
+.posts{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.images{
+  width: 132px;
+  height: 132px;
+  object-fit: cover;
+}
+
+.follow-button-container{
+  text-align: center;
+
+}
+
+.follow-button{
+  position: relative;
+  margin-top: 10px;
+  height: 38px;
+  width: 360px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(0, 137, 239);
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  
+}
+
+.add{
+  top: 6px;
+  left: 63px;
+  position:absolute;
+  height: 8px;
+  width: 8px;
+  
+}
+
+.add-friend{
+  position:absolute;
+  left: 66px; 
+  height: 16px;
+  width: 16px;
+}
